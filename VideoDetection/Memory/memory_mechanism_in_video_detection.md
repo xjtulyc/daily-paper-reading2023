@@ -130,9 +130,9 @@ Author: Mao, Yunyao; Wang, Ning; Zhou, Wengang; Li, Houqiang
 
 A modular reference PyTorch implementation of AOT series frameworks:
 - **DeAOT**: Decoupling Features in Hierachical Propagation for Video Object Segmentation (NeurIPS 2022, Spotlight) [[OpenReview](https://openreview.net/forum?id=DgM7-7eMkq0)][[PDF](https://arxiv.org/pdf/2210.09782.pdf)]
-<img src="https://github.com/yoxu515/aot-benchmark/source/overview_deaot.png" width="90%"/>
+<img src="https://github.com/yoxu515/aot-benchmark/tree/main/source/overview_deaot.png" width="90%"/>
 
 - **AOT**: Associating Objects with Transformers for Video Object Segmentation (NeurIPS 2021, Score 8/8/7/8) [[OpenReview](https://openreview.net/forum?id=hl3v8io3ZYt)][[PDF](https://arxiv.org/abs/2106.02638)]
-<img src="https://github.com/yoxu515/aot-benchmark/source/overview.png" width="90%"/>
+<img src="https://github.com/yoxu515/aot-benchmark/tree/main/source/overview.png" width="90%"/>
 
 An extension of AOT, [AOST](https://arxiv.org/abs/2203.11442) (under review), is available now. AOST is a more robust and flexible framework, supporting run-time speed-accuracy trade-offs.
