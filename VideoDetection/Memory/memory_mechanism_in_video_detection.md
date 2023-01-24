@@ -136,3 +136,37 @@ A modular reference PyTorch implementation of AOT series frameworks:
 <img src="https://github.com/yoxu515/aot-benchmark/blob/main/source/overview.png" width="90%"/>
 
 An extension of AOT, [AOST](https://arxiv.org/abs/2203.11442) (under review), is available now. AOST is a more robust and flexible framework, supporting run-time speed-accuracy trade-offs.
+
+### 2.11. Rethinking Space-Time Networks with Improved Memory Coverage for Efficient Video Object Segmentation
+
+[Ho Kei Cheng](https://hkchengrex.github.io/), Yu-Wing Tai, Chi-Keung Tang
+
+NeurIPS 2021
+
+[[arXiv]](https://arxiv.org/abs/2106.05210) [[PDF]](https://arxiv.org/pdf/2106.05210) [[Project Page]](https://hkchengrex.github.io/STCN/) [[Papers with Code]](https://paperswithcode.com/task/semi-supervised-video-object-segmentation) [[Code]](https://github.com/hkchengrex/STCN/edit/main/README.md)
+
+### 2.12. Video Object Segmentation using Space-Time Memory Networks
+
+Seoung Wug Oh, Joon-Young Lee, Ning Xu, Seon Joo Kim
+
+[[Code]](https://github.com/seoungwugoh/STM/edit/master/README.md)
+[[paper]](http://openaccess.thecvf.com/content_ICCV_2019/html/Oh_Video_Object_Segmentation_Using_Space-Time_Memory_Networks_ICCV_2019_paper.html)
+
+[![Video Object Segmentation using Space-Time Memory Networks (ICCV 2019)](https://img.youtube.com/vi/vVZiBEDmgIU/0.jpg)](https://www.youtube.com/watch?v=vVZiBEDmgIU "Video Object Segmentation using Space-Time Memory Networks (ICCV 2019)")
+
+### 2.13. A Transductive Approach for Video Object Segmentation
+
+Author: Yizhuo Zhang, Zhirong Wu, Houwen Peng, Stephen Lin
+
+[[Code]](https://github.com/microsoft/transductive-vos.pytorch)
+[[Paper]](https://arxiv.org/abs/2004.07193)
+
+Semi-supervised video object segmentation aims to separate a target object from a video sequence, given the mask in the first frame. Most of current prevailing methods utilize information from additional modules trained in other domains like optical flow and instance segmentation, and as a result they do not compete with other methods on common ground. To address this issue, we propose a simple yet strong transductive method, in which additional modules, datasets, and dedicated architectural designs are not needed. Our method takes a label propagation approach where pixel labels are passed forward based on feature similarity in an embedding space. Different from other propagation methods, ours diffuses temporal information in a holistic manner which take accounts of long-term object appearance. In addition, our method requires few additional computational overhead, and runs at a fast ∼37 fps speed. Our single model with a vanilla ResNet50 backbone achieves an overall score of 72.3 on the DAVIS 2017 validation set and 63.1 on the test set. This simple yet high performing and efficient method can serve as a solid baseline that facilitates future research. Code and models are available at https://github.com/microsoft/transductive-vos.pytorch.
+
+### 2.14. Fast Video Object Segmentation using the Global Context Module
+
+Author: Yu Li (1), Zhuoran Shen (2), Ying Shan (1) ((1) Tencent PCG Applied Research Center, (2) The University of Hong Kong)
+
+[Code (Not Released)](https://github.com/cmsflash/global-context-module) [[Paper]](https://arxiv.org/abs/2001.11243)
+
+![](https://github.com/cmsflash/global-context-module/blob/master/illustration.png)
