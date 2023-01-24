@@ -77,3 +77,62 @@ Author: Duke, Brendan; Ahmed, Abdalla; Wolf, Christian; Aarabi, Parham; Taylor, 
 [Code (not released)](https://github.com/dukebw/SSTVOS) [Paper](https://arxiv.org/abs/2101.08833)
 
 ![SSTVOS](https://github.com/dukebw/SSTVOS/blob/main/imgs/sstvos-architecture.png "SSTVOS")
+
+### 2.5. Video Object Segmentation Using Global and Instance Embedding Learning
+
+Author: Wenbin Ge; Xiankai Lu; Jianbing Shen
+
+[URL](https://ieeexplore.ieee.org/document/9577683)
+
+### 2.6. Fast Video Object Segmentation With Temporal Aggregation Network and Dynamic Template Matching
+
+Author: Xuhua Huang, Jiarui Xu, Yu-Wing Tai, Chi-Keung Tang
+
+[URL](https://arxiv.org/abs/2007.05687)
+
+Significant progress has been made in Video Object Segmentation (VOS), the video object tracking task in its finest level. While the VOS task can be naturally decoupled into image semantic segmentation and video object tracking, significantly much more research effort has been made in segmentation than tracking. In this paper, we introduce "tracking-by-detection" into VOS which can coherently integrate segmentation into tracking, by proposing a new temporal aggregation network and a novel dynamic time-evolving template matching mechanism to achieve significantly improved performance. Notably, our method is entirely online and thus suitable for one-shot learning, and our end-to-end trainable model allows multiple object segmentation in one forward pass. We achieve new state-of-the-art performance on the DAVIS benchmark without complicated bells and whistles in both speed and accuracy, with a speed of 0.14 second per frame and J&F measure of 75.9% respectively.
+
+### 2.7. Video Object Segmentation with Dynamic Memory Networks and Adaptive Object Alignment
+
+Author: Liang, Shuxian; Shen, Xu; Huang, Jianqiang; Hua, Xian-Sheng
+
+[Code (not released)](https://github.com/liang4sx/dmn-aoa) [Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Liang_Video_Object_Segmentation_With_Dynamic_Memory_Networks_and_Adaptive_Object_ICCV_2021_paper.pdf)
+
+In this paper, we propose a novel solution for object-matching based semi-supervised video object segmentation, where the target object masks in the first frame are provided. Existing object-matching based methods focus on the matching between the raw object features of the current frame and the first/previous frames. However, two issues are still not solved by these object-matching based methods. As the appearance of the video object changes drastically over time, 1) unseen parts/details of the object present in the current frame, resulting in incomplete annotation in the first annotated frame (e.g., view/scale changes). 2) even for the seen parts/details of the object in the current frame, their positions change relatively (e.g., pose changes/camera motion), leading to a misalignment for the object matching. To obtain the complete information of the target object, we propose a novel object-based dynamic memory network that exploits visual contents of all the past frames. To solve the misalignment problem caused by position changes of visual contents, we propose an adaptive object alignment module by incorporating a region translation function that aligns object proposals towards templates in the feature space. Our method achieves state-of-the-art results on latest benchmark datasets DAVIS 2017 (J of 81.4% and F of 87.5% on the validation set) and YouTube-VOS (the overall score of 82.7% on the validation set) with a very efficient inference time (0.16 second/frame on DAVIS 2017 validation set). Code is available at: https://github.com/liang4sx/DMN-AOA.
+
+### 2.8. Joint Inductive and Transductive Learning for Video Object Segmentation
+
+Author: Mao, Yunyao; Wang, Ning; Zhou, Wengang; Li, Houqiang
+
+[Code](https://github.com/maoyunyao/JOINT) [Paper](https://arxiv.org/pdf/2108.03679.pdf)
+
+![JOINT overview figure](https://github.com/maoyunyao/JOINT/blob/main/pytracking/.figs/architecture.png)
+
+### 2.9. Video Object Segmentation with Adaptive Feature Bank and Uncertain-Region
+
+[\[NeurIPS Page\]](https://proceedings.neurips.cc//paper_files/paper/2020/hash/234833147b97bb6aed53a8f4f1c7a7d8-Abstract.html)
+[\[Paper\]](https://proceedings.neurips.cc/paper/2020/file/234833147b97bb6aed53a8f4f1c7a7d8-Paper.pdf)
+[\[Supplementary\]](https://proceedings.neurips.cc/paper/2020/file/234833147b97bb6aed53a8f4f1c7a7d8-Supplemental.zip)
+
+
+![](https://github.com/xmlyqing00/AFB-URR/blob/main/assets/pipeline.png)
+
+### 2.10. Associating Objects with Transformers for Video Object Segmentation
+
+[Code](https://github.com/yoxu515/aot-benchmark/) [Paper]()
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/decoupling-features-in-hierarchical/semi-supervised-video-object-segmentation-on-15)](https://paperswithcode.com/sota/semi-supervised-video-object-segmentation-on-15?p=decoupling-features-in-hierarchical)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/associating-objects-with-scalable/video-object-segmentation-on-youtube-vos)](https://paperswithcode.com/sota/video-object-segmentation-on-youtube-vos?p=associating-objects-with-scalable)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/associating-objects-with-scalable/semi-supervised-video-object-segmentation-on-18)](https://paperswithcode.com/sota/semi-supervised-video-object-segmentation-on-18?p=associating-objects-with-scalable)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/associating-objects-with-scalable/semi-supervised-video-object-segmentation-on-1)](https://paperswithcode.com/sota/semi-supervised-video-object-segmentation-on-1?p=associating-objects-with-scalable)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/associating-objects-with-scalable/visual-object-tracking-on-davis-2017)](https://paperswithcode.com/sota/visual-object-tracking-on-davis-2017?p=associating-objects-with-scalable)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/associating-objects-with-scalable/visual-object-tracking-on-davis-2016)](https://paperswithcode.com/sota/visual-object-tracking-on-davis-2016?p=associating-objects-with-scalable)
+
+A modular reference PyTorch implementation of AOT series frameworks:
+- **DeAOT**: Decoupling Features in Hierachical Propagation for Video Object Segmentation (NeurIPS 2022, Spotlight) [[OpenReview](https://openreview.net/forum?id=DgM7-7eMkq0)][[PDF](https://arxiv.org/pdf/2210.09782.pdf)]
+<img src="https://github.com/yoxu515/aot-benchmark/source/overview_deaot.png" width="90%"/>
+
+- **AOT**: Associating Objects with Transformers for Video Object Segmentation (NeurIPS 2021, Score 8/8/7/8) [[OpenReview](https://openreview.net/forum?id=hl3v8io3ZYt)][[PDF](https://arxiv.org/abs/2106.02638)]
+<img src="https://github.com/yoxu515/aot-benchmark/source/overview.png" width="90%"/>
+
+An extension of AOT, [AOST](https://arxiv.org/abs/2203.11442) (under review), is available now. AOST is a more robust and flexible framework, supporting run-time speed-accuracy trade-offs.
