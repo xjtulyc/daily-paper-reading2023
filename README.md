@@ -11,7 +11,7 @@
 - Vision-Language Model
     - General Task
     - Application
-        - Medical Image
+        - [Medical Image](https://github.com/xjtulyc/daily-paper-reading2023/blob/main/Vision%20Language%20Model/Application/medical_image.md)
 
 </details>
 
