@@ -6,13 +6,15 @@
 
 - Detection
     - Video
-        - [Memory Mechanism](https://github.com/xjtulyc/daily-paper-reading2023/blob/main/Detection/Video/memory_mechanism_in_video_detection.md)
+        - [Memory Mechanism](Detection/Video/memory_mechanism_in_video_detection.md)
     - Single Frame Detector
-        - Faster RCNN
+        - [Faster RCNN](Detection/Single%20Frame%20Detector/FasterRCNN.md)
+        - [YOLOv1](Detection/Single%20Frame%20Detector/YOLOv1.md)
+        - [OHEM](Detection/Single%20Frame%20Detector/OHEM.md)
 - Vision-Language Model
     - General Task
     - Application
-        - [Medical Image](https://github.com/xjtulyc/daily-paper-reading2023/blob/main/Vision%20Language%20Model/Application/medical_image.md)
+        - [Medical Image](Vision%20Language%20Model/Application/medical_image.md)
 
 </details>
 
