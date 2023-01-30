@@ -77,7 +77,8 @@ $$L(s,t_{x,y,w,h}) = L_{cls}(s_{c*}) + \lambda[c*>0]L_{reg}(t,t*) \tag{4}$$
 **Atrous 技巧**
 作者将最后1个池化层的步长从2减小到1，那么图像将从缩小32倍变成只缩小16倍，这样就提高了共享卷积层的输出分辨率。而这样做就要使用Atrous Convolution算法，具体参见论文Semantic Image Segmentation With Deep Convolutional Nets and Fully Connnected CRFS
 
-**输入Image的RoI是**如何映射到position-sensitive score map上的？
+**输入Image的RoI是如何映射到position-sensitive score map上的？**
+
 因为RoI的坐标应该相对于原始image的真实坐标，而Position-sensitive RoI pooling的池化操作却是利用RoI在position-sensitive score map上完成的，那么现在就必须有一个映射关系将输入image上的RoI映射到position-sensitive score map上，大致映射见下图（详情可参见原始图片中的ROI如何映射到到feature map?）：
 
 ![](file/RFCN_map.png)
