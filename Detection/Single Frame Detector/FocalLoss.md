@@ -18,7 +18,7 @@
 
 介绍focal loss，在介绍focal loss之前，先来看看交叉熵损失，这里以二分类为例，原来的分类loss是各个训练样本交叉熵的直接求和，也就是各个样本的权重是一样的。公式如下：
 
-$$ CE(p,y)=\left\{
+$$ CE(p,y)=\left \{
 \begin{aligned}
 -log(p) & &\text{if $y = 1$}  \\
 -log(1-p) &  &\text{otherwise.}
