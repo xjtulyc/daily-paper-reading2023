@@ -16,6 +16,7 @@
       - [RFCN](Detection/Single%20Frame%20Detector/RFCN.md)
       - [Mask RCNN](Detection/Single%20Frame%20Detector/MaskRCNN.md)
       - [Focal Loss](Detection/Single%20Frame%20Detector/FocalLoss.md)
+      - [FPN](Detection/Single%20Frame%20Detector/FPN.md)
 - Vision-Language Model
     - General Task
     - Application
