@@ -19,6 +19,7 @@
       - [Focal Loss](Detection/Single%20Frame%20Detector/FocalLoss.md)
       - [FPN](Detection/Single%20Frame%20Detector/FPN.md)
       - [FCOS](Detection/Single%20Frame%20Detector/FCOS.md)
+      - [DETR](Detection/Single%20Frame%20Detector/DETR.md)
 - Vision-Language Model
     - General Task
     - Application
