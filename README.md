@@ -9,6 +9,7 @@
       - [Memory Mechanism](Detection/Video/memory_mechanism_in_video_detection.md)
     - Single Frame Detector
       - [RCNN](Detection/Single%20Frame%20Detector/RCNN.md)
+      - [Fast RCNN](Detection/Single%20Frame%20Detector/FastRCNN.md)
       - [Faster RCNN](Detection/Single%20Frame%20Detector/FasterRCNN.md)
       - [YOLOv1](Detection/Single%20Frame%20Detector/YOLOv1.md)
       - [OHEM (Online Hard Example Mining)](Detection/Single%20Frame%20Detector/OHEM.md)
