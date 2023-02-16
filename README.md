@@ -7,6 +7,7 @@
 - Detection
     - Video
       - [Memory Mechanism](Detection/Video/memory_mechanism_in_video_detection.md)
+      - [Real Time Object Detection](Detection/Video/real_time_object_detection.md)
     - Single Frame Detector
       - [RCNN](Detection/Single%20Frame%20Detector/RCNN.md)
       - [Fast RCNN](Detection/Single%20Frame%20Detector/FastRCNN.md)
