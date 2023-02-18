@@ -21,6 +21,9 @@
       - [Focal Loss](Detection/Single%20Frame%20Detector/FocalLoss.md)
       - [FCOS](Detection/Single%20Frame%20Detector/FCOS.md)
       - [DETR](Detection/Single%20Frame%20Detector/DETR.md)
+    - Medical Image
+      - [Ultrasound](Detection/Medical%20Image/Ultrasound/Ultrasound_detection.md)
+        - [Optical Flow Method](Detection/Medical%20Image/Ultrasound/Ultrasound_detection_optical_flow.md)
 - Vision-Language Model
     - General Task
     - Application
