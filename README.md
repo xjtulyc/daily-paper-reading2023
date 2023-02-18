@@ -24,6 +24,7 @@
     - Medical Image
       - [Ultrasound](Detection/Medical%20Image/Ultrasound/Ultrasound_detection.md)
         - [Optical Flow Method](Detection/Medical%20Image/Ultrasound/Ultrasound_detection_optical_flow.md)
+        - [Real Time Detector]
 - Vision-Language Model
     - General Task
     - Application
