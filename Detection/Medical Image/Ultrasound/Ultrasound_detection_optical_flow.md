@@ -2,7 +2,7 @@
 
 ## 1. Review
 
-### 1.1. A Pilot Study on Convolutional Neural Networks for Motion Estimation From Ultrasound Images - 2020
+### ~~1.1. A Pilot Study on Convolutional Neural Networks for Motion Estimation From Ultrasound Images - 2020~~
 
 > Evain E, Faraz K, Grenier T, et al. A pilot study on convolutional neural networks for motion estimation from ultrasound images[J]. IEEE transactions on ultrasonics, ferroelectrics, and frequency control, 2020, 67(12): 2565-2573.
 
@@ -34,7 +34,7 @@
 
 光流辅助信息
 
-### 2.5. Exploiting flow dynamics for super-resolution in contrast-enhanced ultrasound
+### ~~2.5. Exploiting flow dynamics for super-resolution in contrast-enhanced ultrasound~~
 
 > Solomon O, van Sloun R J G, Wijkstra H, et al. Exploiting flow dynamics for superresolution in contrast-enhanced ultrasound[J]. IEEE transactions on ultrasonics, ferroelectrics, and frequency control, 2019, 66(10): 1573-1586.
 
@@ -44,7 +44,7 @@
 
 > Lian J, Zhang M, Jiang N, et al. Feature extraction of kidney tissue image based on ultrasound image segmentation[J]. Journal of Healthcare Engineering, 2021, 2021.
 
-手动设计肾脏光流特征
+手动设计肾脏光流特征 传统方法
 
 ### 2.7. Image-Based 3D Ultrasound Reconstruction with Optical Flow via Pyramid Warping Network - 2021
 

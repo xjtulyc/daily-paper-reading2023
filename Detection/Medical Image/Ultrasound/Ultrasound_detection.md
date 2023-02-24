@@ -1,5 +1,18 @@
 # Object Detection for Ultrasound
 
+The ultrasound lesion detection task refers to regress the bounding box or mask of the lesion derived from the ultrasound image or video.
+
+Previous work has focused on how to automate detection from ultrasound images or videos, trading off accuracy and real-time performance.
+
+Non-deep learning methods, such as hand-crafted features, have lower computational complexity than deep learning methods, but they suffer from poor robustness and accuracy.
+
+Compared with the general detection, the deep learning based ultrasound lesion detection has less training data. At the same time, an ultrasound detection model that can be applied in hospitals needs to balance accuracy, real-time and explainability.
+
+
+
+据我们所知，我们是第一个将光流法应用在ROI Align的超声病灶检测工作
+
+
 ## 1. Review
 
 ### 1.1. Deep Learning in Medical Ultrasound Analysis: A Review - 2019
@@ -34,11 +47,11 @@ cite
 
 ## 2. 方法
 
-### 2.1. A Deep Learning Framework for Single-Sided Sound Speed Inversion in Medical Ultrasound - 2019
+### ~~2.1. A Deep Learning Framework for Single-Sided Sound Speed Inversion in Medical Ultrasound - 2019~~
 
 提出了一种基于深度学习的方法，快速将原始超声图像转化为组织声速图（tissue sound speed map）
 
-### 2.2. Adaptive and Compressive Beamforming Using Deep Learning for Medical Ultrasound - 2020
+### ~~2.2. Adaptive and Compressive Beamforming Using Deep Learning for Medical Ultrasound - 2020~~
 
 提出了一种基于深度学习的方法，快速从射频数据中生成高质量超声图像
 
@@ -57,7 +70,7 @@ cite
 
 用于颈动脉超声分割的方法
 
-### 2.5. Detection of Lines and Boundaries in Speckle Images—Application to Medical Ultrasound - 1999
+### ~~2.5. Detection of Lines and Boundaries in Speckle Images—Application to Medical Ultrasound - 1999~~
 
 > Czerwinski R N, Jones D L, O'Brien W D. Detection of lines and boundaries in speckle images-application to medical ultrasound[J]. IEEE transactions on medical imaging, 1999, 18(2): 126-136.
 
@@ -71,7 +84,7 @@ cite
 
 使用改进canny算法进行边缘检测
 
-### 2.7. Key-frame Guided Network for Thyroid Nodule Recognition using Ultrasound Videos - 2022
+### [x] 2.7. Key-frame Guided Network for Thyroid Nodule Recognition using Ultrasound Videos - 2022
 
 > Wang Y, Li Z, Cui X, et al. Key-frame Guided Network for Thyroid Nodule Recognition Using Ultrasound Videos[C]//Medical Image Computing and Computer Assisted Intervention–MICCAI 2022: 25th International Conference, Singapore, September 18–22, 2022, Proceedings, Part IV. Cham: Springer Nature Switzerland, 2022: 238-247.
 
